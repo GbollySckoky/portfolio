@@ -11,8 +11,8 @@ const Hero = () => {
 
 
   return (
-    <div className='w-[80%] mx-auto text-blues'>
-      <div className='flex items-center pt-[150px] mb-[20px]'>
+    <div className='w-[80%] mx-auto text-blues '>
+      <div className='flex items-center pt-[150px] mb-[80px]'>
         <div className='w-full'>
           <div>
             <p className='mb-[20px] font-normal'>Hi, my name is</p>
@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='flex items-center space-x-6 mt-6'>
-            <Link to={'mailto:gbolahancoker99@gmail.com'} target="_blank">
+            <Link to={'#'} >
               <CiMail size={20} />
             </Link>
             <Link to={'#'} target="_blank" rel="noopener noreferrer">
@@ -48,14 +48,15 @@ const Hero = () => {
             <Link to={'https://www.instagram.com/sckokyy'} target="_blank" rel="noopener noreferrer">
               <IoLogoInstagram color='red' size={20} />
             </Link>
-            <Link to={'#'} target="_blank" rel="noopener noreferrer">
+            <Link to={'https://www.linkedin.com/in/gbolahan-coker-85ba39241'} target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin color='#0866C2' size={20} />
             </Link>
             <Link to={'https://x.com/Sckokyy'} target="_blank" rel="noopener noreferrer">
               <RiTwitterXFill  size={20} />
             </Link>
           </div>
-          <button className='shadow-lg font-medium border-[1px] text-sm  border-gray-600 bg px-5 py-3 mt-5 rounded-lg '>
+          <button className='shadow-lg font-medium border-[1px] text-sm 
+           border-gray-600 bg px-5 py-3 mt-[35px] rounded-lg '>
             Get In Touch
           </button>
         </div>

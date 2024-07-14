@@ -14,25 +14,17 @@ const Experience = () => {
           EXPERIENCE
         </h1>
         <div>
-          <h1 className='text-center my-6 text-2xl font-semibold text-blues'>
+          <h1 className='text-center text-2xl font-semibold text-blues my-[40px]'>
             EXPERIENCE
           </h1>
-          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 max-w-xs xl:max-w-full">
+          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 max-w-xs xl:max-w-full mt-[55px]">
             <ul class="flex whitespace-nowrap xl:flex-col xl:justify-start overflow-x-auto xl:overflow-visible mx-2 mb-5 max-w-xs xl:max-w-full">
                 <li class="inline-block px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2 text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition duration-500 ease-in-out relative">
-                GOMYCODE
+                INTRAPAIR
                 <span class="timeline-dot"></span>
                 </li>
-                {/* <li class="inline-block px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2 text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition duration-500 ease-in-out relative">
-                Sabrioad
-                <span class="timeline-dot"></span>
-                </li>
-                <li class="inline-block px-4 py-2 text-sm xl:text-sm md:text-xl text-center items-center justify-center hover:bg-gray-200 transition duration-500 ease-in-out border-b-2 xl:border-l-2 xl:border-b-0 border-black text-white bg-slate-600 xl:bg-transparent xl:text-slate-800 xl:font-semibold relative">
-                First Bank PLC
-                <span class="timeline-dot"></span> */}
-                {/* </li> */}
             </ul>
-            <div class="timeline-line">
+            <div className="timeline-line ml-8">
                 <h1>Frontend Developer <b>@ Intrapair</b> </h1>
                 <div className='flex items-center mt-2'>
                     <p className='text-sm'>02/2024</p>

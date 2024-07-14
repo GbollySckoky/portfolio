@@ -3,12 +3,14 @@ import image from '../../assets/Frame 2.png'
 
 const About = () => {
   return (
-    <div className='w-[80%] mx-auto'>
+    <div className='w-[80%] mx-auto mb-[80px]'>
         <div>
             <h1 className=' text-2xl font-semibold bg-black text-white p-5'>
                 ABOUT ME
             </h1>
+            <h1 className='text-center my-[40px] text-2xl font-medium'>ABOUT ME</h1>
             <div className='mt-[55px] flex'>
+               
                 <div className='w-full'>
                     <img src={image} alt="" />
                 </div>
