@@ -6,6 +6,7 @@ import MyWork from './Component/MyWork/MyWork';
 import About from './Component/About/About';
 import Projects from './Component/Projects/Projects';
 import Experince from './Component/Experience/Experince';
+import Info from './Component/Info/Info';
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
         </div>
         <div id='contact'>
           <Projects />
+        </div>
+        <div id='contact'>
+          <Info/>
         </div>
       </div>
     </BrowserRouter>

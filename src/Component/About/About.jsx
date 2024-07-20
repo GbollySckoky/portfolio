@@ -3,7 +3,7 @@ import image from '../../assets/Frame 2.png'
 
 const About = () => {
   return (
-    <div className='w-[80%] mx-auto mb-[80px]'>
+    <div className='w-[80%] mx-auto mb-[80px] '>
         <div>
             <h1 className=' text-2xl font-semibold bg-black text-white p-5'>
                 ABOUT ME
@@ -28,7 +28,7 @@ const About = () => {
                     <p className='text-[15px] text-blue leading-7 mt-6'>
                         Beyond the realm of code and design, I find joy in the simple pleasures of life. Music is a passion of mine, 
                         serving as a constant source of inspiration and motivation throughout my creative journey. 
-                        When I'm not coding or designing, you can find me listening to some cool music and playing video games.
+                        When I'm not coding , you can find me listening to some cool music and playing video games.
                     </p>
                     <p className='text-[15px] text-blue leading-7 my-4'>
                         Here are a few technologies i work with:
@@ -48,6 +48,15 @@ const About = () => {
                         </li>
                         <li className='list-disc text-[16px] text-blue leading-7 py-1'>
                             <p>TAILWIND CSS</p>
+                        </li>
+                        <li className='list-disc text-[16px] text-blue leading-7 py-1'>
+                            <p>GITHUB</p>
+                        </li>
+                        <li className='list-disc text-[16px] text-blue leading-7 py-1'>
+                            <p>REDUX</p>
+                        </li>
+                        <li className='list-disc text-[16px] text-blue leading-7 py-1'>
+                            <p>FIGMA</p>
                         </li>
                     </ul>
                 </div>
