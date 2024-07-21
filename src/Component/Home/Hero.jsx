@@ -9,7 +9,6 @@ import image from '../../assets/Frame 2.png'
 // import MyWork from '../MyWork/MyWork';
 const Hero = () => {
 
-
   return (
     <div className='w-[80%] mx-auto text-blues '>
       <div className='flex items-center pt-[150px] mb-[80px]'>
@@ -39,10 +38,10 @@ const Hero = () => {
             </div>
           </div>
           <div className='flex items-center space-x-6 mt-6'>
-            <Link to={'#'} >
+            <Link to={'mailto:gbolahancoker99@gmail.com'} >
               <CiMail size={20} />
             </Link>
-            <Link to={'#'} target="_blank" rel="noopener noreferrer">
+            <Link to={'https://github.com/GbollySckoky'} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub size={20} />
             </Link>
             <Link to={'https://www.instagram.com/sckokyy'} target="_blank" rel="noopener noreferrer">

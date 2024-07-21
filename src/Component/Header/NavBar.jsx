@@ -14,7 +14,7 @@ const NavBar = () => {
           <ul className='flex space-x-8'>
             <li> 
               <Link to='myWork' spy={true} smooth={true} duration={500} className='cursor-pointer'>
-                Home
+                Projects
               </Link>
             </li> 
             <li> 
@@ -28,8 +28,8 @@ const NavBar = () => {
               </Link>
             </li> 
             <li> 
-              <Link to='projects' spy={true} smooth={true} duration={500} className='cursor-pointer'>
-                Projects
+              <Link to='skills' spy={true} smooth={true} duration={500} className='cursor-pointer'>
+                Skills
               </Link>
             </li> 
             <li> 
