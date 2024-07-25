@@ -13,22 +13,22 @@ const App = () => {
     <BrowserRouter>
       <div>
         <NavBar />
-        <div id='hero'>
+        <div id='/'>
           <Hero />
         </div>
-        <div id='myWork'>
+        <div id='/myWork'>
           <MyWork />
         </div>
-        <div id='about'>
+        <div id='/about'>
           <About />
         </div>
-        <div id='experience'>
+        <div id='/experience'>
           <Experince />
         </div>
-        <div id='skills'>
+        <div id='/skills'>
           <Projects />
         </div>
-        <div id='contact'>
+        <div id='/contact'>
           <Info/>
         </div>
       </div>

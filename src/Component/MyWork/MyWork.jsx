@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import images1 from '../../assets/Screenshot 2024-07-21 at 14.20.03.png';
-import img from '../../assets/Screenshot 2024-07-21 at 14.20.31.png'
+import img from '../../assets/They.png'
 import imgs from '../../assets/Screenshot 2024-07-21 at 19.47.59.png'
 
 
 const MyWork = () => {
   return (
-    <div className=''>
-        <div className='w-[80%] mx-auto mb-[70px]'>
+    <div className='mb-[120px]'>
+        <div className='w-[80%] mx-auto mb-[50px]'>
             <h1 className='text-2xl font-semibold bg-black text-white p-5'>
                 MY WORK
             </h1>
@@ -105,7 +105,7 @@ const MyWork = () => {
                 <p className="legend">FLEXA</p>
                 <div className='space-x-3'>
                     <Link to="https://finance--psi.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg'>
+                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
                         Live
                     </Link>
                     <Link to="https://github.com/GbollySckoky/Flexa-"  
@@ -117,9 +117,9 @@ const MyWork = () => {
             <div>
                 <img src={images1} alt="Slide 2"/>
                 <p className="legend">POSH PACE</p>
-                <div className='space-x-3'>
+                <div className='space-x-3 '>
                     <Link to="https://e-commerce-ruddy-rho.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg'>
+                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
                         Live
                     </Link>
                     <Link to="https://github.com/GbollySckoky/E-commerce" 
@@ -131,12 +131,13 @@ const MyWork = () => {
             <div>
                 <img src={img} alt="Slide 3"/>
                 <p className="legend">NETFLIX</p>
-                <div className='space-x-3 mt-[70px]'>
+                <div className='space-x-3 '>
                     <Link to="https://movie-box-seven-psi.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg'>
+                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
                         Live
                     </Link>
-                    <Link to="https://github.com/GbollySckoky/MovieBox"  target='_blank'>
+                    <Link to="https://github.com/GbollySckoky/MovieBox"  
+                        target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
                         Github
                     </Link>
                 </div>
@@ -146,7 +147,7 @@ const MyWork = () => {
                 <p className="legend">HOME-ESTATE</p>
                 <div className='space-x-3 mt-[10px]'>
                     <Link to="https://home-estate.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg'>
+                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
                         Live
                     </Link>
                     <Link 

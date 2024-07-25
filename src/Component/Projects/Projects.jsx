@@ -12,7 +12,7 @@ import tailwind from '../../assets/tailwind-css.png'
 import react from '../../assets/react.png'
 const Projects = () => {
   return (
-    <div className='w-[80%] mx-auto mb-[50px]'>
+    <div className='w-[80%] mx-auto mb-[120px]'>
         <div className='mt-[50px]'>
             <h1 className='bg-black text-white text-3xl font-semibold p-5'>
                 TECH SKILLS

@@ -4,7 +4,7 @@ import { CiMail } from "react-icons/ci";
 import { IoLogoGithub, IoLogoInstagram } from "react-icons/io";
 import { AiFillLinkedin } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
-
+import { MdLocalPhone } from "react-icons/md";
 
 const Info = () => {
   return (
@@ -38,6 +38,9 @@ const Info = () => {
             </Link>
             <Link to={'https://x.com/Sckokyy'} target="_blank" rel="noopener noreferrer">
               <RiTwitterXFill  size={20} />
+            </Link>
+            <Link to={'tel:09075437117'} target="_blank" rel="noopener noreferrer">
+              <MdLocalPhone   size={20} />
             </Link>
             </div>
             <div className='flex items-center text-[15px] text-blues my-4'>
