@@ -21,7 +21,7 @@ const Projects = () => {
                 <h1 className='text-center text-2xl my-[40px] font-semibold p-5'>
                     TECH STACK
                 </h1>
-                <div className='grid grid-cols-3 w-[30%] mx-auto'>
+                <div className='grid place-items-center grid-cols-3 w-[30%] mx-auto'>
                     <img 
                         className='rounded-full py-4 w-[40px]' 
                         src={javascript} alt="" 

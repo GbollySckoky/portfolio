@@ -1,5 +1,6 @@
 import React from 'react'
-import image from '../../assets/Frame 2.png'
+import image from '../../assets/WhatsApp Image 2024-07-29 at 11.33.48.jpeg';
+
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
             </h1>
             <h1 className='text-center my-[40px] text-2xl font-semibold'>ABOUT ME</h1>
             <div className='mt-[55px] flex'>           
-                <div className='w-full'>
-                    <img src={image} alt="" />
+                <div className='w-full grid place-items-center'>
+                    <img className='h-[500px]' src={image} alt="" />
                 </div>
                 <div className=''>
                     <p className='text-[15px] text-blue leading-7'>

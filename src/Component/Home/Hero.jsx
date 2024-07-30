@@ -3,16 +3,16 @@ import { CiMail } from "react-icons/ci";
 import { IoLogoGithub, IoLogoInstagram } from "react-icons/io";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import { Cursor } from 'react-simple-typewriter';
 import { RiTwitterXFill } from "react-icons/ri";
-import image from '../../assets/Frame 2.png';
+import image from '../../assets/WhatsApp Image 2024-07-29 at 11.33.48.jpeg';
 import { MdLocalPhone } from "react-icons/md";
 
 const Hero = () => {
   return (
     <div className='w-[80%] mx-auto text-blues'>
-      <div className='flex items-center pt-[150px] mb-[120px]'>
-        <div className='w-full'>
+      <div className='flex flex-col md:flex-row items-center pt-[150px] mb-[120px]'>
+        <div className='w-full md:w-1/2'>
           <div>
             <p className='mb-[20px] font-normal fade-in'>Hi, my name is</p>
             <h1 className='text-3xl font-semibold text-blues fade-in'>
@@ -20,7 +20,7 @@ const Hero = () => {
             </h1>
             <h1 className='text-3xl font-semibold text-Gray my-4 fade-in-delay'>
               FRONT-END DEVELOPER
-              <Cursor />
+              <Cursor /> 
             </h1>
             <div className='mt-4 fade-in'>
               <p className='text-[15px] text-blues leading-7'>
@@ -37,10 +37,10 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div className='flex items-center space-x-6 mt-5 fade-in-icons'>
-            <Link to={'mailto:gbolahancoker99@gmail.com'}>
+          <div className='flex items-center space-x-6 mt-5 cursor-pointer fade-in-icons'>
+            <a href={'mailto:gbolahancoker99@gmail.com'}>
               <CiMail size={20} />
-            </Link>
+            </a>
             <Link to={'https://github.com/GbollySckoky'} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub size={20} />
             </Link>
@@ -61,8 +61,8 @@ const Hero = () => {
             Get In Touch
           </button>
         </div>
-        <div className='w-full grid place-items-end fade-in-delay'>
-          <img src={image} alt="Gbolahan Coker" />
+        <div className='w-full md:w-1/2 grid place-items-center fade-in-delay'>
+          <img src={image} alt='' className='object-contain h-[500px] md:w-auto' />
         </div>
       </div>
     </div>

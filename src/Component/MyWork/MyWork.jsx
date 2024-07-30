@@ -6,160 +6,76 @@ import { Carousel } from 'react-responsive-carousel';
 import images1 from '../../assets/Screenshot 2024-07-21 at 14.20.03.png';
 import img from '../../assets/They.png'
 import imgs from '../../assets/Screenshot 2024-07-21 at 19.47.59.png'
-
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 const MyWork = () => {
+
+    const slideImages = [
+        {
+        image:image,
+        links: 'https://finance--psi.vercel.app',
+        git:'https://github.com/GbollySckoky/Flexa-',
+        name: 'FLEXA',
+        about: 'Flexa, your premier financial companion, is the forefront online savings and investing platform in Nigeria. Over the past 1 years, our community has preserved and invested billions of Naira, redirecting funds that might have been impulsively spent'
+        },
+       {
+        image:img,
+        links: 'https://movie-box-seven-psi.vercel.app',
+        git:'https://github.com/GbollySckoky/MovieBox',
+        name: 'NETFLIX',
+        about:'movieBox'
+       },
+       {
+        image:images1,
+        links: 'https://e-commerce-ruddy-rho.vercel.app',
+        git:'https://github.com/GbollySckoky/E-commerce',
+        name: 'POSHPACE',
+        about:'Posh Pace is an e-commerce platform that offers a wide variety of clothing and accessories for women, men, and kids. The site features an appealing and user-friendly interface.'
+       },
+       {
+        image:imgs,
+        links: 'https://home-estate.vercel.app',
+        git:'https://github.com/GbollySckoky/HomeEstate',
+        name: 'HOME-ESTATE',
+        about: 'Real estate is a sector encompassing the buying, selling, and renting of land, buildings, and housing. It serves as a critical component of the economy, providing living spaces, commercial locations, and investment opportunities.'
+       },
+    ];
   return (
-    <div className='mb-[120px]'>
+    <div className='mb-[70px]'>
         <div className='w-[80%] mx-auto mb-[50px]'>
             <h1 className='text-2xl font-semibold bg-black text-white p-5'>
                 MY WORK
             </h1>
             <div className='mt-[30px]'>
-                <h1 className='text-center text-2xl font-medium my-[40px]'>MY WORK</h1>
-                {/* <div className='grid grid-cols-3 mt-[55px]'>
-                <div className="container mb-[40px] w-full">
-                    <img src={image} alt="Avatar" className='rounded-2xl w-full'/>
-                    <div className="overlay  rounded-2xl">
-                        <Link 
-                            className='text underline text-base' 
-                            to='https://flexa-livid.vercel.app/' 
-                            target='_blank'>
-                            Visit Website
-                        </Link>
-                        <Link 
-                            className='icons rounded-xl' 
-                            to='https://github.com/GbollySckoky/Flexa-' 
-                            target='_blank'>
-                            <IoLogoGithub size={24} />
-                        </Link>
-
-                    </div>
-                </div>
-                <div className="container mb-[40px] w-full">
-                    <img src={image} alt="Avatar" className='rounded-2xl w-full'/>
-                    <div className="overlay rounded-2xl">
-                        <Link className='text underline text-base' to='https://flexa-livid.vercel.app/' target='_blank'>
-                            Visit Website
-                        </Link>
-                        <Link className='icons rounded-xl' to='https://github.com/GbollySckoky/Flexa-' target='_blank'>
-                            <IoLogoGithub size={24} />
-                        </Link>
-
-                    </div>
-                </div>
-                <div className="container mb-[40px] w-full">
-                    <img src={image} alt="Avatar" className='rounded-2xl'/>
-                    <div className="overlay rounded-2xl">
-                        <Link className='text underline' to='https://flexa-livid.vercel.app/' target='_blank'>
-                            Visit Website
-                        </Link>
-                        <Link className='icons rounded-xl' to='https://github.com/GbollySckoky/Flexa-' target='_blank'>
-                            <IoLogoGithub size={24} />
-                        </Link>
-
-                    </div>
-                </div>
-                <div className="container mb-[40px] w-full">
-                    <img src={image} alt="Avatar" className='rounded-2xl'/>
-                    <div className="overlay rounded-2xl">
-                        <Link className='text underline' to='https://flexa-livid.vercel.app/' target='_blank'>
-                            Visit Website
-                        </Link>
-                        <Link className='icons rounded-xl' to='https://github.com/GbollySckoky/Flexa-' target='_blank'>
-                            <IoLogoGithub size={24} />
-                        </Link>
-
-                    </div>
-                </div>
-                <div className="container mb-[40px] w-full">
-                    <img src={image} alt="Avatar" className='rounded-2xl'/>
-                    <div className="overlay rounded-2xl">
-                        <Link className='text underline' to='https://flexa-livid.vercel.app/' target='_blank'>
-                            Visit Website
-                        </Link>
-                        <Link className='icons rounded-xl' to='https://github.com/GbollySckoky/Flexa-' target='_blank'>
-                            <IoLogoGithub size={24} />
-                        </Link>
-
-                    </div>
-                </div>
-                <div className="container mb-[40px] w-full">
-                    <img src={image} alt="Avatar" className='rounded-2xl'/>
-                    <div className="overlay rounded-2xl">
-                        <Link className='text underline' to='https://flexa-livid.vercel.app/' target='_blank'>
-                            Visit Website
-                        </Link>
-                        <Link className='icons rounded-xl' to='https://github.com/GbollySckoky/Flexa-' target='_blank'>
-                            <IoLogoGithub size={24} />
-                        </Link>
-
-                    </div>
-                </div>
-                </div> */}
+                <h1 className='text-center text-2xl  font-medium my-[40px]'>MY WORK</h1>
             </div>
         </div>
-        <Carousel className='w-[30%] mx-auto'>
-            <div>
-                <img src={image} alt="Slide 1"/>
-                <p className="legend">FLEXA</p>
-                <div className='space-x-3'>
-                    <Link to="https://finance--psi.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
-                        Live
-                    </Link>
-                    <Link to="https://github.com/GbollySckoky/Flexa-"  
-                        target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
-                        Github
-                    </Link>
-                </div>
-            </div>
-            <div>
-                <img src={images1} alt="Slide 2"/>
-                <p className="legend">POSH PACE</p>
-                <div className='space-x-3 '>
-                    <Link to="https://e-commerce-ruddy-rho.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
-                        Live
-                    </Link>
-                    <Link to="https://github.com/GbollySckoky/E-commerce" 
-                         target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
-                        Github
-                    </Link>
-                </div>
-            </div>
-            <div>
-                <img src={img} alt="Slide 3"/>
-                <p className="legend">NETFLIX</p>
-                <div className='space-x-3 '>
-                    <Link to="https://movie-box-seven-psi.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
-                        Live
-                    </Link>
-                    <Link to="https://github.com/GbollySckoky/MovieBox"  
-                        target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
-                        Github
-                    </Link>
-                </div>
-            </div>
-            <div>
-                <img src={imgs} alt="Slide 4"/>
-                <p className="legend">HOME-ESTATE</p>
-                <div className='space-x-3 mt-[10px]'>
-                    <Link to="https://home-estate.vercel.app" 
-                        className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
-                        Live
-                    </Link>
-                    <Link 
-                        to="https://github.com/GbollySckoky/HomeEstate"  
-                        target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
-                        Github
-                    </Link>
-                </div>
-                
-            </div>
-        </Carousel>
-        <div>
+        <div className="slide-container">
+            <Slide>
+                {slideImages.map((slideImage, index)=> (
+                    <div className="each-slide w-[30vw] mx-auto" key={index}>
+                        <img src={slideImage.image} alt="" />
+                        <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+                            <h1 className='text-center py-1 cursor-pointer text-2xl font-medium my-3 hover:bg-blues 
+                            hover:text-white rounded-2xl'>
+                                {slideImage.name}
+                            </h1>
+                            <p className='font-light my-3'>{slideImage.about}</p>
+                        </div>
+                        <div className='space-x-3 flex items-center justify-center my-4'>
+                            <Link to="https://finance--psi.vercel.app" 
+                                className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
+                                Live
+                            </Link>
+                            <Link to="https://github.com/GbollySckoky/Flexa-"  
+                                target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
+                                Github
+                            </Link>
+                        </div>
+                    </div>
+                ))} 
+            </Slide>
         </div>
     </div>
   )
