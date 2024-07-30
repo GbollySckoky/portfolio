@@ -24,7 +24,7 @@ const MyWork = () => {
         links: 'https://movie-box-seven-psi.vercel.app',
         git:'https://github.com/GbollySckoky/MovieBox',
         name: 'NETFLIX',
-        about:'movieBox'
+        about:'I have developed a Netflix clone website to replicate the functionality and design of the popular streaming platform. This project demonstrates my skills in front-end development and my ability to create a user-friendly, media-rich application.'
        },
        {
         image:images1,
@@ -44,32 +44,32 @@ const MyWork = () => {
   return (
     <div className='mb-[70px]'>
         <div className='w-[80%] mx-auto mb-[50px]'>
-            <h1 className='text-2xl font-semibold bg-black text-white p-5'>
+            <h1 className='text-xl lg:text-3xl font-semibold bg-black text-white p-5'>
                 MY WORK
             </h1>
             <div className='mt-[30px]'>
-                <h1 className='text-center text-2xl  font-medium my-[40px]'>MY WORK</h1>
+                <h1 className='text-center text-xl lg:text-2xl font-medium my-[40px]'>MY WORK</h1>
             </div>
         </div>
-        <div className="slide-container">
+        <div className="slide-container w-[85vw]  md:w-[50vw] mx-auto">
             <Slide>
                 {slideImages.map((slideImage, index)=> (
-                    <div className="each-slide w-[30vw] mx-auto" key={index}>
+                    <div className="each-slide lg:w-[30vw] mx-auto" key={index}>
                         <img src={slideImage.image} alt="" />
                         <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-                            <h1 className='text-center py-1 cursor-pointer text-2xl font-medium my-3 hover:bg-blues 
+                            <h1 className='text-center py-1 cursor-pointer text-xl lg:text-2xl font-medium my-3 hover:bg-blues 
                             hover:text-white rounded-2xl'>
                                 {slideImage.name}
                             </h1>
-                            <p className='font-light my-3'>{slideImage.about}</p>
+                            <p className='font-light mx-5 text-sm my-3'>{slideImage.about}</p>
                         </div>
                         <div className='space-x-3 flex items-center justify-center my-4'>
                             <Link to="https://finance--psi.vercel.app" 
-                                className='bg-blues text-white px-7 py-2 rounded-lg' target='_blank'>
+                                className='bg-blues text-white px-7 py-2 text-sm rounded-lg' target='_blank'>
                                 Live
                             </Link>
                             <Link to="https://github.com/GbollySckoky/Flexa-"  
-                                target='_blank' className='bg-blues text-white px-7 py-2 rounded-lg'>
+                                target='_blank' className='bg-blues text-white text-sm px-7 py-2 rounded-lg'>
                                 Github
                             </Link>
                         </div>

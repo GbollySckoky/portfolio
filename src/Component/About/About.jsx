@@ -6,15 +6,15 @@ const About = () => {
   return (
     <div className='w-[80%] mx-auto mb-[120px] '>
         <div>
-            <h1 className=' text-2xl font-semibold bg-black text-white p-5'>
+            <h1 className='text-xl lg:text-3xl font-semibold bg-black text-white p-5'>
                 ABOUT ME
             </h1>
-            <h1 className='text-center my-[40px] text-2xl font-semibold'>ABOUT ME</h1>
-            <div className='mt-[55px] flex'>           
+            <h1 className='text-center my-[40px] text-xl lg:text-2xl font-semibold'>ABOUT ME</h1>
+            <div className='mt-[55px] lg:flex'>           
                 <div className='w-full grid place-items-center'>
                     <img className='h-[500px]' src={image} alt="" />
                 </div>
-                <div className=''>
+                <div className='mt-7 lg:mt-0'>
                     <p className='text-[15px] text-blue leading-7'>
                         Hey there! I'm <b className='underline'>Gbolahan</b>, a passionate web developer with a knack for creating visually stunning 
                         designs that captivate audiences. I believe that great design should be accessible to everyone, 
