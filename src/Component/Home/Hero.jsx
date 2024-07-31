@@ -12,7 +12,7 @@ const Hero = () => {
   const navigate = useNavigate()
   return (
     <div className='w-[80%] mx-auto text-blues'>
-      <div className='lg:flex flex-col  items-center pt-[150px] mb-[120px]'>
+      <div className='lg:flex   items-center pt-[150px] mb-[120px]'>
         <div className='w-full '>
           <div>
             <p className='mb-[20px] font-normal fade-in'>Hi, my name is</p>
@@ -59,7 +59,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className='  mt-7 lg:mt-0 grid place-items-center fade-in-delay'>
+        <div className='w-full  mt-7 lg:mt-0 grid place-items-end fade-in-delay'>
           <img src={image} alt='' className='object-contain h-[500px] ' />
         </div>
       </div>
