@@ -12,7 +12,7 @@ const About = () => {
             <h1 className='text-center my-[40px] text-xl lg:text-2xl font-semibold'>ABOUT ME</h1>
             <div className='mt-[55px] lg:flex'>           
                 <div className='w-full grid place-items-center'>
-                    <img className='h-[500px]' src={image} alt="" />
+                    <img className='h-[500px] object-contain' src={image} alt="" />
                 </div>
                 <div className='mt-7 lg:mt-0'>
                     <p className='text-[15px] text-blue leading-7'>

@@ -12,8 +12,8 @@ const Hero = () => {
   const navigate = useNavigate()
   return (
     <div className='w-[80%] mx-auto text-blues'>
-      <div className='flex flex-col md:flex-row items-center pt-[150px] mb-[120px]'>
-        <div className='w-full md:w-1/2'>
+      <div className='lg:flex flex-col  items-center pt-[150px] mb-[120px]'>
+        <div className='w-full '>
           <div>
             <p className='mb-[20px] font-normal fade-in'>Hi, my name is</p>
             <h1 className='text-2xl lg:text-3xl font-semibold text-blues fade-in'>
@@ -24,13 +24,13 @@ const Hero = () => {
               <Cursor /> 
             </h1>
             <div className='mt-4 fade-in '>
-              <p className='text-[14px] font-normal lg:text-[15px] text-blues leading-7'>
+              <p className='text-[15px] text-blues leading-7'>
                 I'm a front-end developer with a passion for crafting exceptional digital experiences and one year of 
                 experience in designing and building responsive web designs. My expertise lies in creating accessible, 
                 human-centered, and SEO-friendly products. I am proficient in CSS and JavaScript frameworks, with 
                 extensive knowledge of ReactJS and NextJS. Notable achievements include:
               </p>
-              <ul className='text-[14px] lg:text-[15px] text-blues list-disc pl-5 mt-2'>
+              <ul className='text-[15px] text-blues list-disc pl-5 mt-2'>
                 <li className='py-1'>Developing web applications with mobile responsiveness</li>
                 <li className='py-1'>Consuming and manipulating APIs</li>
                 <li className='py-1'>Maintaining and improving websites</li>
@@ -39,9 +39,9 @@ const Hero = () => {
             </div>
           </div>
           <div className='flex items-center space-x-6 mt-5 cursor-pointer fade-in-icons'>
-            <Link href={'mailto:gbolahancoker99@gmail.com'}  target="_blank">
+            {/* <Link href={'mailto:gbolahancoker99@gmail.com'}  target="_blank">
               <CiMail size={20} />
-            </Link>
+            </Link> */}
             <Link to={'https://github.com/GbollySckoky'} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub size={20} />
             </Link>
@@ -59,8 +59,8 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className='w-full md:w-1/2 grid place-items-center fade-in-delay'>
-          <img src={image} alt='' className='object-contain h-[500px] md:w-auto' />
+        <div className='  mt-7 lg:mt-0 grid place-items-center fade-in-delay'>
+          <img src={image} alt='' className='object-contain h-[500px] ' />
         </div>
       </div>
     </div>

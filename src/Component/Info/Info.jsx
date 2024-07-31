@@ -11,8 +11,8 @@ const Info = () => {
     <div>
         <div className='bg-[#E6E8EA] py-[50px]'>
             <div className='text-center  text-blues'>
-                <h1 className='text-2xl font-bold'>Ready to take your web projects to the next  level ?</h1>
-                <p className='mt-[25px] text-[15px] w-[500px] mx-auto mb-[40px] leading-6'>
+                <h1 className='lg:text-2xl font-bold'>Ready to take your web projects to the next  level ?</h1>
+                <p className='mt-[25px] text-[13px] lg:text-[15px] lg:w-[500px] mx-auto mb-[40px] leading-6'>
                     Let's join forces to create outstanding user experiences. Get in touch today to discuss 
                     how I can support your digital project needs. Let's build something amazing together!
                 </p>
@@ -24,9 +24,9 @@ const Info = () => {
         </div>
         <div className='grid place-items-center'>
             <div className='flex justify-center items-center space-x-6 mt-6'>
-            <Link to={'mailto:gbolahancoker99@gmail.com'} >
+            {/* <Link to={'mailto:gbolahancoker99@gmail.com'} >
               <CiMail size={20} />
-            </Link>
+            </Link> */}
             <Link to={'https://github.com/GbollySckoky'} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub size={20} />
             </Link>

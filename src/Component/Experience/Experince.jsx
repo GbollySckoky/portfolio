@@ -9,13 +9,15 @@ const Experience = () => {
           EXPERIENCE
         </h1>
         <div>
-          <h1 className='text-center text-2xl font-semibold text-blues mt-[40px]'>
+          <h1 className='text-center text-xl lg:text-2xl font-semibold text-blues mt-[40px]'>
             EXPERIENCE
           </h1>
           <h1 className='lg:text-2xl text-xl text-center mt-5'>Frontend Developer @ Intrapair </h1>
-          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 max-w-xs xl:max-w-full mt-[20px] lg:mt-[55px]">
-            <ul class="flex whitespace-nowrap xl:flex-col xl:justify-start overflow-x-auto xl:overflow-visible mx-2 mb-5 max-w-xs xl:max-w-full">
-                <li class="inline-block cursor-pointer px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2 text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition duration-500 ease-in-out relative">
+          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 ]mt-[20px] lg:mt-[55px]">
+            <ul class="flex whitespace-nowrap mx-2 mb-5 mt-4 lg:mt-0">
+                <li class="inline-block cursor-pointer px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2
+                 text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition 
+                 duration-500 ease-in-out relative">
                 INTRAPAIR
                 <span class="timeline-dot"></span>
                 </li>
@@ -25,7 +27,7 @@ const Experience = () => {
                     <p className='text-sm'> Till date</p>
                 </li>
             </ul>
-            <div className="timeline-line ml-3 lg:ml-8">
+            <div className="timeline-line  ml-3 lg:ml-8">
                 <ul className='mb-[40px]'>
                     <h1 className='text-xl lg:text-2xl font-medium mb-5'>Admin Web App Development:</h1>
                     <li className='list-disc my-3 font-light'>

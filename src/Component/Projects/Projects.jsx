@@ -14,59 +14,91 @@ const Projects = () => {
   return (
     <div className='w-[80%] mx-auto mb-[120px]'>
         <div className='mt-[50px]'>
-            <h1 className='bg-black text-white text-3xl font-semibold p-5'>
+            <h1 className='bg-black text-white text-xl lg:text-3xl font-semibold p-5'>
                 TECH SKILLS
             </h1>
             <div>
-                <h1 className='text-center text-2xl my-[40px] font-semibold p-5'>
+                <h1 className='text-center lg:text-2xl text-xl my-[40px] font-semibold p-5'>
                     TECH STACK
                 </h1>
-                <div className='grid place-items-center grid-cols-3 w-[30%] mx-auto'>
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={javascript} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[50px]' 
-                        src={react} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[50px]' 
-                        src={tailwind} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={redux} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={typeScript} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={html} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={css} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[50px]' 
-                        src={figma} alt="" 
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[50px]' 
-                        src={vscode} alt=""
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={github} alt=""
-                    />
-                    <img 
-                        className='rounded-full py-4 w-[40px]' 
-                        src={firebase} alt=
-                        "" 
-                    />
+                <div className='grid place-items-center grid-cols-3 lg:w-[30%] mx-auto'>
+                    <div className='grid place-items-center'>
+                        <img 
+                            className=' py-4 lg:w-[40px]' 
+                            src={javascript} alt="" 
+                        />
+                        <p>JavaScript</p>
+                    </div>
+                    <div className='grid place-items-center'>
+                        <img 
+                            className='rounded-full py-3 w-[40px] lg:w-[50px]' 
+                            src={react} alt="" 
+                        />
+                        <p>React</p>
+                    </div>
+                    <div className='grid place-items-center'>
+                        <img 
+                            className='rounded-full py-3 w-[40px] lg:w-[50px]' 
+                            src={tailwind} alt="" 
+                        />
+                        <p>Tailwind</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className='rounded-full py-3 w-[40px] lg:w-[50px]' 
+                            src={redux} alt="" 
+                        />
+                        <p>Redux</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-4 lg:w-[50px]' 
+                            src={typeScript} alt="" 
+                        />
+                        <p>Typescript</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-3 w-[40px] lg:w-[50px]' 
+                            src={html} alt="" 
+                        />
+                        <p>Html</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-3 w-[40px] lg:w-[50px]' 
+                            src={css} alt="" 
+                        />
+                        <p>Css</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-2 w-[50px]' 
+                            src={figma} alt="" 
+                        />
+                        <p>Figma</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-3 w-[40px] lg:w-[50px]' 
+                            src={vscode} alt="" 
+                        />
+                        <p>Vscode</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-3 w-[40px] lg:w-[50px]' 
+                            src={github} alt="" 
+                        />
+                        <p>Github</p>
+                    </div>
+                    <div className='grid place-items-center mt-5'>
+                        <img 
+                            className=' py-3 w-[40px] lg:w-[50px]' 
+                            src={firebase} alt="" 
+                        />
+                        <p>Firebase</p>
+                    </div>
                 </div>
             </div>
         </div>
