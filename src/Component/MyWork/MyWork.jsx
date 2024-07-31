@@ -2,12 +2,14 @@ import React from 'react'
 import image from '../../assets/Screenshot.png'
 import { Link } from 'react-router-dom'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import { GoLink } from "react-icons/go";
 import images1 from '../../assets/Screenshot 2024-07-21 at 14.20.03.png';
 import img from '../../assets/They.png'
 import imgs from '../../assets/Screenshot 2024-07-21 at 19.47.59.png'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import { IoLogoGithub } from "react-icons/io";
+
 
 const MyWork = () => {
 
@@ -65,11 +67,13 @@ const MyWork = () => {
                         </div>
                         <div className='space-x-3 flex items-center justify-center my-4'>
                             <Link to="https://finance--psi.vercel.app" 
-                                className='bg-blues text-white px-7 py-2 text-sm rounded-lg' target='_blank'>
-                                Live
+                                className='underline px-7 flex items-center text-base py-2 rounded-lg' target='_blank'>
+                                <span className='mr-3'> < GoLink size={17} /> </span>
+                                LiveLink
                             </Link>
                             <Link to="https://github.com/GbollySckoky/Flexa-"  
-                                target='_blank' className='bg-blues text-white text-sm px-7 py-2 rounded-lg'>
+                                target='_blank' className='flex items-center text-base underline px-7 py-2 rounded-lg'>
+                                <span className='mr-3'> < IoLogoGithub size={17}/> </span>
                                 Github
                             </Link>
                         </div>
