@@ -56,7 +56,7 @@ const NavBar = () => {
               </div>
           </div>
           {activeIcon && (
-             <ul className='lg:hidden space-y-6' >
+             <ul className='lg:hidden space-y-6 mb-[30px]  mt-[15px]' >
              <li> 
                <Link onClick={handleIcon} to='/myWork' spy={true} smooth={true} duration={500} className='cursor-pointer'>
                  MyWork
