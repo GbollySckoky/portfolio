@@ -66,12 +66,12 @@ const MyWork = () => {
                             <p className='font-light mx-5 text-sm my-3'>{slideImage.about}</p>
                         </div>
                         <div className='space-x-3 flex items-center justify-center my-4'>
-                            <Link to="https://finance--psi.vercel.app" 
+                            <Link to={slideImage.links}
                                 className='underline px-7 flex items-center text-base py-2 rounded-lg' target='_blank'>
                                 <span className='mr-3'> < GoLink size={17} /> </span>
                                 LiveLink
                             </Link>
-                            <Link to="https://github.com/GbollySckoky/Flexa-"  
+                            <Link to={slideImage.git} 
                                 target='_blank' className='flex items-center text-base underline px-7 py-2 rounded-lg'>
                                 <span className='mr-3'> < IoLogoGithub size={17}/> </span>
                                 Github
