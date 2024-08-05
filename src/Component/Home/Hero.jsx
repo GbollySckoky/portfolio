@@ -1,15 +1,14 @@
 import React from 'react';
-import { CiMail } from "react-icons/ci";
+// import { CiMail } from "react-icons/ci";
 import { IoLogoGithub, IoLogoInstagram } from "react-icons/io";
 import { AiFillLinkedin } from "react-icons/ai";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Cursor } from 'react-simple-typewriter';
 import { RiTwitterXFill } from "react-icons/ri";
 import image from '../../assets/WhatsApp Image 2024-07-29 at 11.33.48.jpeg';
 import { MdLocalPhone } from "react-icons/md";
 
 const Hero = () => {
-  const navigate = useNavigate()
   return (
     <div className='w-[80%] mx-auto text-blues'>
       <div className='lg:flex items-center pt-[150px] mb-[120px]'>

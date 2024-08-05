@@ -1,6 +1,4 @@
 import React from 'react'
-import image from '../../assets/WhatsApp Image 2024-07-29 at 11.33.48.jpeg';
-
 
 const About = () => {
   return (
@@ -10,13 +8,10 @@ const About = () => {
                 ABOUT ME
             </h1>
             <h1 className='text-center my-[40px] text-xl lg:text-2xl font-semibold'>ABOUT ME</h1>
-            <div className='mt-[55px] lg:flex'>    
-                <div className='w-full '>
-                    <img className='h-[400px] object-contain' src={image} alt="" />
-                </div>
-                <div className='mt-7 lg:mt-0'>
+            <div className='mt-[35px]'>    
+                <div>
                     <p className='text-[15px] text-blue leading-7'>
-                        Hey there! I'm <b className='underline'>Gbolahan</b>, a passionate web developer with a knack for creating visually stunning 
+                        Hey there! I'm <b className='underline'>Gbolahan</b>, a passionate web developer with a keen for creating visually stunning 
                         designs that captivate audiences. I believe that great design should be accessible to everyone, 
                         and that's what drives me to craft user-friendly websites that leave a lasting impression.
                     </p>
