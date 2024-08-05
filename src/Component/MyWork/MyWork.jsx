@@ -57,7 +57,7 @@ const MyWork = () => {
             <Slide>
                 {slideImages.map((slideImage, index)=> (
                     <div className="each-slide lg:w-[30vw] mx-auto" key={index}>
-                        <img src={slideImage.image} alt="" />
+                        <img src={slideImage.image} alt={slideImage.name} />
                         <div style={{'backgroundImage': `url(${slideImage.url})`}}>
                             <h1 className='text-center py-1 cursor-pointer text-xl lg:text-2xl font-medium my-3 hover:bg-blues 
                             hover:text-white rounded-2xl'>
