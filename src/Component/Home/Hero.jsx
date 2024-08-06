@@ -58,9 +58,9 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className='w-full  mt-7 lg:mt-0 grid place-items-center fade-in-delay'>
+        {/* <div className='w-full  mt-7 lg:mt-0 grid place-items-center fade-in-delay'>
           <img src={image} alt='' className='object-contain h-[500px]' />
-        </div>
+        </div> */}
       </div>
     </div>
   );
