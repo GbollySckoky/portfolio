@@ -36,7 +36,7 @@ const Experience = () => {
                     </li>
                     <li className='list-disc my-3 font-light'>
                      <span className='text-base font-medium lg:font-semibold'>Project Type: </span> 
-                      Static Website
+                      Dynamic Website
                     </li>
                     <li className='list-disc my-3 text-base font-medium lg:font-semibold'>
                       Responsibilities:
