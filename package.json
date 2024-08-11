@@ -25,6 +25,7 @@
     "react-simple-typewriter": "^5.0.1",
     "react-slick": "^0.30.2",
     "react-slideshow-image": "^4.3.1",
+    "react-to-print": "^2.15.1",
     "swiper": "^11.1.5",
     "typewriter-effect": "^2.21.0"
   },

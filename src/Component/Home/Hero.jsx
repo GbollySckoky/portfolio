@@ -1,11 +1,9 @@
 import React from 'react';
-// import { CiMail } from "react-icons/ci";
 import { IoLogoGithub, IoLogoInstagram } from "react-icons/io";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { Cursor } from 'react-simple-typewriter';
 import { RiTwitterXFill } from "react-icons/ri";
-import image from '../../assets/WhatsApp Image 2024-07-29 at 11.33.48.jpeg';
 import { MdLocalPhone } from "react-icons/md";
 
 const Hero = () => {
@@ -37,7 +35,7 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div className='flex items-center space-x-6 mt-5 cursor-pointer fade-in-icons'>
+          <div className='flex items-center space-x-6 mt-7 cursor-pointer fade-in-icons'>
             {/* <Link href={'mailto:gbolahancoker99@gmail.com'}  target="_blank">
               <CiMail size={20} />
             </Link> */}
@@ -58,9 +56,9 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        {/* <div className='w-full  mt-7 lg:mt-0 grid place-items-center fade-in-delay'>
-          <img src={image} alt='' className='object-contain h-[500px]' />
-        </div> */}
+        
+        <div>
+    </div>
       </div>
     </div>
   );

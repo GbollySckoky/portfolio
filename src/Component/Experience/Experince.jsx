@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 const Experience = () => {
   return (
@@ -67,7 +67,17 @@ const Experience = () => {
                     </li>
                 </ul>
                 <div className='my-5'>
-                  <h1 className='text-xl lg:text-2xl font-medium mb-5'>Stitchvine Development:</h1>
+                  <div className='flex items-center'>
+                    <h1 className='text-xl lg:text-2xl font-medium '>
+                      Stitchvine Development:
+                    </h1>
+                    <Link 
+                      target='_blank'
+                      to={'www.stitchvine.com'} 
+                      className={'font-semibold text-lg text-blue-800 underline ml-3'}>
+                      LINK
+                    </Link>
+                  </div>
                   <ul>
                     <li className='list-disc my-3 font-light'>
                      <span className='text-base font-medium lg:font-semibold'>Role: </span> 
