@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import image from '../../assets/WhatsApp Image 2024-07-29 at 11.33.48.jpeg';
+import image from '../../assets/WhatsApp Image 2024-09-09 at 09.00.28.jpeg';
 
 const About = () => {
   return (
@@ -31,10 +31,10 @@ const About = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.5, duration: 0.7 }}
             >
-                <img className='h-[400px] object-contain' src={image} alt="" />
+                <img className='h-[400px] object-contain w-full' src={image} alt="" />
             </motion.div>
             <motion.div 
-              className='mt-7 lg:mt-0'
+              className='mt-7 lg:mt-0 lg:ml-5'
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 1 }}
