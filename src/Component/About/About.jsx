@@ -31,7 +31,7 @@ const About = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.5, duration: 0.7 }}
             >
-                <img className='h-[400px] object-contain w-full' src={image} alt="" />
+                <img className='h-[400px] object-contain w-full' src={image} alt="Gbolahan Coker" />
             </motion.div>
             <motion.div 
               className='mt-7 lg:mt-0 lg:ml-5'
