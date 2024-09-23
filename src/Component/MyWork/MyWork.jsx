@@ -9,7 +9,7 @@ import imgs from '../../assets/Screenshot 2024-07-21 at 19.47.59.png'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { IoLogoGithub } from "react-icons/io";
-
+import stitchvine from '../../assets/Screenshot 2024-09-23 at 14.37.31.png'
 
 const MyWork = () => {
 

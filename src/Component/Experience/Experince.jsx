@@ -22,9 +22,9 @@ const Experience = () => {
                 <span class="timeline-dot"></span>
                 </li>
                 <li className='flex text-sm text-blue ml-2 font-light items-center'>
-                    <p className='text-sm'>02/2024 </p>
-                    -
-                    <p className='text-sm'> Till date</p>
+                    <p className='text-sm pr-1'>10/2023  </p>
+                     -
+                    <p className='text-sm pl-1'> 08/2024</p>
                 </li>
             </ul>
             <div className="timeline-line  ml-3 lg:ml-8">

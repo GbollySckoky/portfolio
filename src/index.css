@@ -85,3 +85,11 @@ html{
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 1s;
 }
+.bg-bluess {
+  background-color: #000000; /* Black background */
+  transition: background-color 0.3s ease; /* Add transition for smooth animation */
+}
+
+.bg-blues:hover {
+  background-color: #333333; /* Dark gray hover */
+}

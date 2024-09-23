@@ -55,8 +55,16 @@ const Hero = () => {
               <MdLocalPhone size={20} />
             </Link>
           </div>
+          <div className='mt-8 '>
+                <Link 
+                  className='bg-bluess text-white p-3 rounded-lg shadow-md bg-blues'
+                  target='_blank'
+                  to='https://gbolahanresume.vercel.app/'>
+                  View Resume 
+                </Link>
+          </div>
         </div>
-        
+            
         <div>
     </div>
       </div>
