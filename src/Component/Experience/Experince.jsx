@@ -38,6 +38,10 @@ const Experience = () => {
                      <span className='text-base font-medium lg:font-semibold'>Project Type: </span> 
                       Dynamic Website
                     </li>
+                    <li className='list-disc my-3 font-light'>
+                     <span className='text-base font-medium lg:font-semibold'>Skills: </span> 
+                      React, Typescript, Npm, Tailwindcss, Zustand
+                    </li>
                     <li className='list-disc my-3 text-base font-medium lg:font-semibold'>
                       Responsibilities:
                     </li>
@@ -73,7 +77,7 @@ const Experience = () => {
                     </h1>
                     <Link 
                       target='_blank'
-                      to={'www.stitchvine.com'} 
+                      to={'https://stitchvine.com/'} 
                       className={'font-semibold text-lg text-blue-800 underline ml-3'}>
                       LINK
                     </Link>
@@ -86,6 +90,10 @@ const Experience = () => {
                     <li className='list-disc my-3 font-light'>
                      <span className='text-base font-medium lg:font-semibold'>Project Type: </span> 
                      Static Website
+                    </li>
+                    <li className='list-disc my-3 font-light'>
+                     <span className='text-base font-medium lg:font-semibold'>Skills: </span> 
+                      Next.js, Typescript, Npm, Tailwindcss
                     </li>
                     <li className='list-disc my-3 text-base font-medium lg:font-semibold'>
                     Responsibilities:
