@@ -4,10 +4,81 @@ import { Link } from 'react-router-dom';
 const Experience = () => {
   return (
     <div className='w-[80%] mx-auto lg:mb-[120px]'>
-      <div className='mt-[50px]'>
+      {/* SHAARE */}
+        <div className='mt-[50px]'>
         <h1 className='bg-black text-white text-xl lg:text-3xl font-semibold p-5'>
           EXPERIENCE
         </h1>
+        <div>
+          <h1 className='text-center text-xl lg:text-2xl font-semibold text-blues mt-[40px]'>
+            EXPERIENCE
+          </h1>
+          <h1 className='lg:text-2xl text-xl text-center mt-5'>Frontend Developer @ Shaare </h1>
+          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 ]mt-[20px] lg:mt-[55px]">
+            <ul class="flex whitespace-nowrap mx-2 mb-5 mt-4 lg:mt-0">
+                <li class="inline-block cursor-pointer px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2
+                 text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition 
+                 duration-500 ease-in-out relative">
+                  SHAARE
+                <span class="timeline-dot"></span>
+                </li>
+                <li className='flex text-sm text-blue ml-2 font-light items-center'>
+                    <p className='text-sm pr-1'>10/2024  </p>
+                     {/* -
+                    <p className='text-sm pl-1'> </p> */}
+                </li>
+            </ul>
+          <div className="timeline-line ml-3 lg:ml-8">
+            <ul className="mb-[40px]">
+              <div className="flex">
+                <h1 className="text-xl lg:text-2xl font-medium mb-5">Booking Flow Web Application Development:</h1>
+                <Link 
+                  target="_blank"
+                  to="https://book.getshaare.com/" 
+                  className="font-semibold text-lg text-blue-800 underline ml-3">
+                  LINK
+                </Link>
+              </div>  
+              <li className="list-disc my-3 font-light">
+                <span className="text-base font-medium lg:font-semibold">Role: </span> 
+                Frontend Developer
+              </li>
+              <li className="list-disc my-3 font-light">
+                <span className="text-base font-medium lg:font-semibold">Project Type: </span> 
+                Dynamic Website
+              </li>
+              <li className="list-disc my-3 font-light">
+                <span className="text-base font-medium lg:font-semibold">Skills: </span> 
+                Next.js, TypeScript, npm, TailwindCSS, Context API
+              </li>
+              <li className="list-disc my-3 text-base font-medium lg:font-semibold">
+                Key Contributions:
+              </li>
+              <li className="list-disc font-light my-3">
+                <span className="text-base font-medium lg:font-semibold">Team Collaboration:</span> Collaborated with the backend developer to successfully deliver the booking flow web app. Maintained a productive working environment through regular stand-ups, code reviews, and pair programming.
+              </li>
+              <li className="list-disc font-light my-3">
+                <span className="text-base font-medium lg:font-semibold">UI/UX Enhancement:</span> Worked closely with the UI/UX designer to improve the visual appeal and usability of the admin interface, resulting in a 15% increase in user satisfaction based on feedback and usability tests.
+              </li>
+              <li className="list-disc font-light my-3">
+                <span className="text-base font-medium lg:font-semibold">Payment Integration:</span> Collaborated with the backend developer to implement the Paystack payment gateway.
+              </li>
+              <li className="list-disc font-light my-3">
+                <span className="text-base font-medium lg:font-semibold">Performance Optimization:</span> Applied optimization techniques such as lazy loading, code splitting, and efficient state management to improve the app’s load time by 20%.
+              </li>
+              <li className="list-disc font-light my-3">
+                <span className="text-base font-medium lg:font-semibold">Google Autocomplete Integration:</span> Developed and integrated Google Autocomplete for location search functionality.
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+      {/* INTRAPAIR */}
+      <div className='mt-[50px]'>
+        {/* <h1 className='bg-black text-white text-xl lg:text-3xl font-semibold p-5'>
+          EXPERIENCE
+        </h1> */}
         <div>
           <h1 className='text-center text-xl lg:text-2xl font-semibold text-blues mt-[40px]'>
             EXPERIENCE
