@@ -30,8 +30,8 @@ const Experience = () => {
             </ul>
           <div className="timeline-line ml-3 lg:ml-8">
             <ul className="mb-[40px]">
-              <div className="flex">
-                <h1 className="text-xl lg:text-2xl font-medium mb-5">Booking Flow Web Application Development:</h1>
+              <div className="flex items-center mb-5">
+                <h1 className="text-xl lg:text-2xl font-medium ">Booking Flow Web Application Development:</h1>
                 <Link 
                   target="_blank"
                   to="https://book.getshaare.com/" 
@@ -61,7 +61,7 @@ const Experience = () => {
                 <span className="text-base font-medium lg:font-semibold">UI/UX Enhancement:</span> Worked closely with the UI/UX designer to improve the visual appeal and usability of the admin interface, resulting in a 15% increase in user satisfaction based on feedback and usability tests.
               </li>
               <li className="list-disc font-light my-3">
-                <span className="text-base font-medium lg:font-semibold">Payment Integration:</span> Collaborated with the backend developer to implement the Paystack payment gateway.
+                <span className="text-base font-medium lg:font-semibold">Payment Integration:</span> Integrated Paystack Payment Gateway Successfully, I implemented payment workflows in a booking web app, including payment initialization, verification.
               </li>
               <li className="list-disc font-light my-3">
                 <span className="text-base font-medium lg:font-semibold">Performance Optimization:</span> Applied optimization techniques such as lazy loading, code splitting, and efficient state management to improve the app’s load time by 20%.
