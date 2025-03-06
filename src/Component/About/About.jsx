@@ -70,21 +70,21 @@ const About = () => {
                       whileHover={{ scale: 1.1 }}
                       key="react"
                     >
-                        <p>REACT</p>
+                      <p>TYPESCRIPT</p>
                     </motion.li>
                     <motion.li
                       className='list-disc text-[16px] text-blue leading-7 py-1'
                       whileHover={{ scale: 1.1 }}
                       key="firebase"
                     >
-                        <p>FIREBASE</p>
+                         <p>REACT</p>
                     </motion.li>
                     <motion.li
                       className='list-disc text-[16px] text-blue leading-7 py-1'
                       whileHover={{ scale: 1.1 }}
                       key="typescript"
                     >
-                        <p>TYPESCRIPT</p>
+                        <p>NEXT.JS</p>
                     </motion.li>
                     <motion.li
                       className='list-disc text-[16px] text-blue leading-7 py-1'
@@ -100,7 +100,7 @@ const About = () => {
                     >
                         <p>GITHUB</p>
                     </motion.li>
-                    <motion.li
+                    {/* <motion.li
                       className='list-disc text-[16px] text-blue leading-7 py-1'
                       whileHover={{ scale: 1.1 }}
                       key="redux"
@@ -113,7 +113,7 @@ const About = () => {
                       key="figma"
                     >
                         <p>FIGMA</p>
-                    </motion.li>
+                    </motion.li> */}
                 </ul>
             </motion.div>
         </motion.div>
