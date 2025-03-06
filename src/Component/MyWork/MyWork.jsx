@@ -24,7 +24,7 @@ const MyWork = () => {
         },
         {
             image: Nuxlink,
-            links: 'https://nux-link.vercel.app/auth/login',
+            links: 'https://nux-link.vercel.app/',
             git:'https://github.com/GbollySckoky/NuxLink',
             name: 'NUXLINK',
             about:
