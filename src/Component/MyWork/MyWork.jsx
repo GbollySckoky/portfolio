@@ -10,10 +10,24 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { IoLogoGithub } from "react-icons/io";
 import stitchvine from '../../assets/Screenshot 2024-09-23 at 14.37.31.png'
-
+import digicon from '../../assets/Screenshot 2025-03-01 at 20.42.54.png'
 const MyWork = () => {
 
     const slideImages = [
+        {
+            image: digicon,
+            links: 'https://digiconsolutions.netlify.app/admin',
+            git:'https://github.com/GbollySckoky/E-commerce',
+            name: 'DIGICON',
+            about:'Posh Pace is an e-commerce platform that offers a wide variety of clothing and accessories for women, men, and kids. The site features an appealing and user-friendly interface.'
+        },
+        {
+            image:images1,
+            links: 'https://e-commerce-ruddy-rho.vercel.app',
+            git:'https://github.com/GbollySckoky/E-commerce',
+            name: 'POSHPACE',
+            about:'Posh Pace is an e-commerce platform that offers a wide variety of clothing and accessories for women, men, and kids. The site features an appealing and user-friendly interface.'
+        },
         {
         image:image,
         links: 'https://finance--psi.vercel.app',
@@ -28,13 +42,7 @@ const MyWork = () => {
         name: 'NETFLIX',
         about:'I have developed a Netflix clone website to replicate the functionality and design of the popular streaming platform. This project demonstrates my skills in front-end development and my ability to create a user-friendly, media-rich application.'
        },
-       {
-        image:images1,
-        links: 'https://e-commerce-ruddy-rho.vercel.app',
-        git:'https://github.com/GbollySckoky/E-commerce',
-        name: 'POSHPACE',
-        about:'Posh Pace is an e-commerce platform that offers a wide variety of clothing and accessories for women, men, and kids. The site features an appealing and user-friendly interface.'
-       },
+       
        {
         image:imgs,
         links: 'https://home-estate.vercel.app',
