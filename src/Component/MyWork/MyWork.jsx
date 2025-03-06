@@ -44,13 +44,13 @@ const MyWork = () => {
         about:'I have developed a Netflix clone website to replicate the functionality and design of the popular streaming platform. This project demonstrates my skills in front-end development and my ability to create a user-friendly, media-rich application.'
        },
        
-       {
-        image:imgs,
-        links: 'https://home-estate.vercel.app',
-        git:'https://github.com/GbollySckoky/HomeEstate',
-        name: 'HOME-ESTATE',
-        about: 'Real estate is a sector encompassing the buying, selling, and renting of land, buildings, and housing. It serves as a critical component of the economy, providing living spaces, commercial locations, and investment opportunities.'
-       },
+    //    {
+    //     image:imgs,
+    //     links: 'https://home-estate.vercel.app',
+    //     git:'https://github.com/GbollySckoky/HomeEstate',
+    //     name: 'HOME-ESTATE',
+    //     about: 'Real estate is a sector encompassing the buying, selling, and renting of land, buildings, and housing. It serves as a critical component of the economy, providing living spaces, commercial locations, and investment opportunities.'
+    //    },
     ];
   return (
     <div className='mb-[70px]'>

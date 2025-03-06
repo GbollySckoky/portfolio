@@ -92,15 +92,23 @@ const Experience = () => {
                 INTRAPAIR
                 <span class="timeline-dot"></span>
                 </li>
-                <li className='flex text-sm text-blue ml-2 font-light items-center'>
+                <li className='flex text-sm text-blue ml-1 font-light items-center'>
                     <p className='text-sm pr-1'>10/2023  </p>
                      -
                     <p className='text-sm pl-1'> 08/2024</p>
                 </li>
             </ul>
             <div className="timeline-line  ml-3 lg:ml-8">
+               <div className="flex items-center">
+                    <h1 className='text-xl lg:text-2xl font-medium mb-3'>Admin Web App Development:</h1>
+                     <Link 
+                        target='_blank'
+                        to={'https://preview.tmraccess.com/'} 
+                        className={'font-semibold text-lg text-blue-800 underline ml-3'}>
+                        LINK
+                    </Link>
+                  </div>
                 <ul className='mb-[40px]'>
-                    <h1 className='text-xl lg:text-2xl font-medium mb-5'>Admin Web App Development:</h1>
                     <li className='list-disc my-3 font-light'>
                      <span className='text-base font-medium lg:font-semibold'>Role: </span> 
                      Frontend Developer
@@ -146,12 +154,6 @@ const Experience = () => {
                     <h1 className='text-xl lg:text-2xl font-medium '>
                       Stitchvine Development:
                     </h1>
-                    <Link 
-                      target='_blank'
-                      to={'https://stitchvine.com/'} 
-                      className={'font-semibold text-lg text-blue-800 underline ml-3'}>
-                      LINK
-                    </Link>
                   </div>
                   <ul>
                     <li className='list-disc my-3 font-light'>
