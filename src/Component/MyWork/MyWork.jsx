@@ -9,7 +9,7 @@ import imgs from '../../assets/Screenshot 2024-07-21 at 19.47.59.png'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { IoLogoGithub } from "react-icons/io";
-import stitchvine from '../../assets/Screenshot 2024-09-23 at 14.37.31.png'
+import Nuxlink from '../../assets/Screenshot 2025-03-06 at 15.33.50.png'
 import digicon from '../../assets/Screenshot 2025-03-01 at 20.42.54.png'
 const MyWork = () => {
 
@@ -21,6 +21,14 @@ const MyWork = () => {
             name: 'DIGICON',
             about:
             'Digocon is a modern e-commerce platform for gadgets and tech accessories. With a sleek, user-friendly design, it offers a seamless shopping experience, featuring smartphones, smartwatches, gaming gear, and more. Digocon ensures quality, convenience, and a smooth checkout process. LOGIN INFO: EMAIL:ogunjobiadebanjo400@gmail.com, PASSWORD:1234567ab'
+        },
+        {
+            image: Nuxlink,
+            links: 'https://nux-link.vercel.app/auth/login',
+            git:'https://github.com/GbollySckoky/NuxLink',
+            name: 'NUXLINK',
+            about:
+            'Nuxlink is a task management app designed and built to simplify life for remote workers. LOGIN INFO: EMAIL:femiduyile@gmail.com, PASSWORD:password'
         },
         {
             image:images1,
