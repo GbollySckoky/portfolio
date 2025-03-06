@@ -17,9 +17,10 @@ const MyWork = () => {
         {
             image: digicon,
             links: 'https://digiconsolutions.netlify.app/admin',
-            git:'https://github.com/GbollySckoky/E-commerce',
+            git:'https://github.com/Innovvo/digicon-fe',
             name: 'DIGICON',
-            about:'Posh Pace is an e-commerce platform that offers a wide variety of clothing and accessories for women, men, and kids. The site features an appealing and user-friendly interface.'
+            about:
+            'Digocon is a modern e-commerce platform for gadgets and tech accessories. With a sleek, user-friendly design, it offers a seamless shopping experience, featuring smartphones, smartwatches, gaming gear, and more. Digocon ensures quality, convenience, and a smooth checkout process. LOGIN INFO: EMAIL:ogunjobiadebanjo400@gmail.com, PASSWORD:1234567ab'
         },
         {
             image:images1,
