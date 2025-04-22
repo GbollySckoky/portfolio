@@ -100,20 +100,6 @@ const About = () => {
                     >
                         <p>GITHUB</p>
                     </motion.li>
-                    {/* <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="redux"
-                    >
-                        <p>REDUX</p>
-                    </motion.li>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="figma"
-                    >
-                        <p>FIGMA</p>
-                    </motion.li> */}
                 </ul>
             </motion.div>
         </motion.div>
