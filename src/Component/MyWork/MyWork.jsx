@@ -11,25 +11,36 @@ import 'react-slideshow-image/dist/styles.css'
 import { IoLogoGithub } from "react-icons/io";
 import Nuxlink from '../../assets/Screenshot 2025-03-06 at 15.33.50.png'
 import digicon from '../../assets/Screenshot 2025-03-01 at 20.42.54.png'
+import playbet from '../../assets/Screenshot 2025-04-19 at 18.19.05.png'
+
+
 const MyWork = () => {
 
     const slideImages = [
+        {
+            image: playbet,
+            links: 'https://dashboard.playbeta.co/',
+            git:'https://github.com/GbollySckoky/PlayBeta',
+            name: 'PLAYBET',
+            about:
+            'LOGIN INFO: EMAIL:admin@example.com; PASSWORD:adminpassword'
+        },
         {
             image: digicon,
             links: 'https://digiconsolutions.netlify.app/admin',
             git:'https://github.com/Innovvo/digicon-fe',
             name: 'DIGICON',
             about:
-            'Digocon is a modern e-commerce platform for gadgets and tech accessories. With a sleek, user-friendly design, it offers a seamless shopping experience, featuring smartphones, smartwatches, gaming gear, and more. Digocon ensures quality, convenience, and a smooth checkout process. LOGIN INFO: EMAIL:ogunjobiadebanjo400@gmail.com, PASSWORD:1234567ab'
+            'Digocon is a modern e-commerce platform for gadgets and tech accessories. With a sleek, user-friendly design, it offers a seamless shopping experience, featuring smartphones, smartwatches, gaming gear, and more. Digocon ensures quality, convenience, and a smooth checkout process. LOGIN INFO: EMAIL:ogunjobiadebanjo400@gmail.com; PASSWORD:1234567ab'
         },
-        {
-            image: Nuxlink,
-            links: 'https://nux-link.vercel.app/',
-            git:'https://github.com/GbollySckoky/NuxLink',
-            name: 'NUXLINK',
-            about:
-            'Nuxlink is a task management app designed and built to simplify life for remote workers. LOGIN INFO: EMAIL:femiduyile@gmail.com, PASSWORD:password'
-        },
+        // {
+        //     image: Nuxlink,
+        //     links: 'https://nux-link.vercel.app/',
+        //     git:'https://github.com/GbollySckoky/NuxLink',
+        //     name: 'NUXLINK',
+        //     about:
+        //     'Nuxlink is a task management app designed and built to simplify life for remote workers. LOGIN INFO: EMAIL:femiduyile@gmail.com, PASSWORD:password'
+        // },
         {
             image:images1,
             links: 'https://e-commerce-ruddy-rho.vercel.app',
