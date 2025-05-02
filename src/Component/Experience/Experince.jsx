@@ -4,17 +4,77 @@ import { Link } from 'react-router-dom';
 const Experience = () => {
   return (
     <div className='w-[80%] mx-auto lg:mb-[120px]'>
-      {/* SHAARE */}
-        <div className='mt-[50px]'>
-        <h1 className='bg-black text-white text-xl lg:text-3xl font-semibold p-5'>
+       <h1 className='bg-black text-white text-xl lg:text-3xl font-semibold p-5'>
           EXPERIENCE
         </h1>
-        <div>
-          <h1 className='text-center text-xl lg:text-2xl font-semibold text-blues mt-[40px]'>
+      {/* PLAYBET */}
+      <div className='mt-[50px]'>
+        <h1 className='text-center text-xl lg:text-2xl font-semibold text-blues mt-[40px]'>
             EXPERIENCE
-          </h1>
+        </h1>
+        <h1 className='lg:text-2xl text-xl text-center mt-5'>Frontend Developer @ Playbet </h1>
+          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 mt-[20px] lg:mt-[40px]">
+          <ul class="flex whitespace-nowrap mx-2 mb-5 mt-4 lg:mt-0">
+                <li class="inline-block cursor-pointer px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2
+                 text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition 
+                 duration-500 ease-in-out relative">
+                  PLAYBET
+                <span class="timeline-dot"></span>
+                </li>
+                <li className='flex text-sm text-blue ml-2 font-light items-center'>
+                    <p className='text-sm pr-1'>02/2025 - 04/2025</p>
+                     {/* -
+                    <p className='text-sm pl-1'> </p> */}
+                </li>
+          </ul>
+          <div className="timeline-line ml-3 lg:ml-8">
+            <ul className="mb-[40px]">
+              <div className="flex items-center mb-5">
+                <h1 className="text-xl lg:text-2xl font-medium ">FRONTEND DEVELOPER | PLAYBET (CONTRACT):</h1>
+                <Link 
+                  target="_blank"
+                  to="https://dashboard.playbeta.co/" 
+                  className="font-semibold text-lg text-blue-800 underline ml-3">
+                  LINK
+                </Link>
+              </div>  
+              <li className="list-disc my-3 font-light">
+                <span className="text-base font-medium lg:font-semibold">Role: </span> 
+                Frontend Developer
+              </li>
+              <li className="list-disc my-3 font-light">
+                <span className="text-base font-medium lg:font-semibold">Project Type: </span> 
+                Dynamic Website
+              </li>
+              <li className="list-disc my-3 font-light">
+                <span className="text-base font-medium lg:font-semibold">Skills: </span> 
+                React, TypeScript, npm, TailwindCSS, useQuery
+              </li>
+              <li className="list-disc my-3 text-base font-medium lg:font-semibold">
+                Key Contributions:
+              </li>
+              <li className="list-disc font-light my-3">
+                Enhanced web application performance by implementing WebSocket.io for efficient 
+                real-time data transfer, reducing latency and server load
+              </li>
+              <li className="list-disc font-light my-3">
+                Developed responsive web applications with React, TypeScript, and Tailwind CSS, 
+                focusing on SEO-friendly, high-performance websites and improving user experience.
+              </li>
+              <li className="list-disc font-light my-3">
+                Built custom hooks around useQuery for simplified data access across components
+              </li>
+              <li className="list-disc font-light my-3">
+                Implemented data fetching strategies using React Query (TanStack Query) for efficient API state management
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      {/* SHAARE */}
+        <div className='mt-[50px]'>  
           <h1 className='lg:text-2xl text-xl text-center mt-5'>Frontend Developer @ Shaare </h1>
-          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 ]mt-[20px] lg:mt-[55px]">
+          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 mt-[20px] lg:mt-[40px]">
             <ul class="flex whitespace-nowrap mx-2 mb-5 mt-4 lg:mt-0">
                 <li class="inline-block cursor-pointer px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2
                  text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition 
@@ -72,19 +132,11 @@ const Experience = () => {
             </ul>
           </div>
         </div>
-        </div>
       </div>
       {/* INTRAPAIR */}
       <div className='mt-[50px]'>
-        {/* <h1 className='bg-black text-white text-xl lg:text-3xl font-semibold p-5'>
-          EXPERIENCE
-        </h1> */}
-        <div>
-          <h1 className='text-center text-xl lg:text-2xl font-semibold text-blues mt-[40px]'>
-            EXPERIENCE
-          </h1>
-          <h1 className='lg:text-2xl text-xl text-center mt-5'>Frontend Developer @ Intrapair </h1>
-          <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 ]mt-[20px] lg:mt-[55px]">
+        <h1 className='lg:text-2xl text-xl text-center mt-5'>Frontend Developer @ Intrapair </h1>
+        <div class="relative flex flex-col xl:flex-row xl:justify-center xl:items-start mx-2 mb-5 mt-[20px] lg:mt-[40px]">
             <ul class="flex whitespace-nowrap mx-2 mb-5 mt-4 lg:mt-0">
                 <li class="inline-block cursor-pointer px-4 py-2 text-sm xl:text-sm border-b-2 xl:border-b-0 xl:border-l-2
                  text-slate-800 md:text-xl text-center items-center justify-center hover:bg-gray-200 transition 
@@ -190,7 +242,6 @@ const Experience = () => {
                 </ul>
                 </div>
             </div>
-        </div>
         </div>
       </div>
     </div>

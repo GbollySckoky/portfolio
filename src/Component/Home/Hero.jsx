@@ -39,13 +39,13 @@ const Hero = () => {
             {/* <Link href={'mailto:gbolahancoker99@gmail.com'}  target="_blank">
               <CiMail size={20} />
             </Link> */}
-            <Link to={'https://github.com/GbollySckoky'} target="_blank" rel="noopener noreferrer">
+            <Link to={'https://github.com/GbollySckoky/'} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub size={20} />
             </Link>
             <Link to={'https://www.instagram.com/sckokyy'} target="_blank" rel="noopener noreferrer">
               <IoLogoInstagram color='red' size={20} />
             </Link>
-            <Link to={'https://www.linkedin.com/in/gbolahan-coker-85ba39241'} target="_blank" rel="noopener noreferrer">
+            <Link to={'https://www.linkedin.com/in/gbolahancoker/'} target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin color='#0866C2' size={20} />
             </Link>
             <Link to={'https://x.com/Sckokyy'} target="_blank" rel="noopener noreferrer">

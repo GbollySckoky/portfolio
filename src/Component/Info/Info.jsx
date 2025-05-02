@@ -1,12 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { CiMail } from "react-icons/ci";
 import { IoLogoGithub, IoLogoInstagram } from "react-icons/io";
 import { AiFillLinkedin } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
 import { MdLocalPhone } from "react-icons/md";
+// import { Link } from 'react-router-dom';
+
 
 const Info = () => {
+  const navigate = useNavigate()
+
   return (
     <div>
         <div className='bg-[#E6E8EA] py-[50px]'>
@@ -16,10 +20,15 @@ const Info = () => {
                     Let's join forces to create outstanding user experiences. Get in touch today to discuss 
                     how I can support your digital project needs. Let's build something amazing together!
                 </p>
-                <button className='bg-white hover:bg-blues hover:text-white text-blues px-6
-                    py-3 rounded-lg shadow-lg'>
+                {/* <Link 
+                className='bg-white hover:bg-blues hover:text-white text-blues px-6
+                py-3 rounded-lg shadow-lg'
+                to="https://www.linkedin.com/in/gbolahancoker/" 
+                target="_blank" rel="noopener noreferrer"
+               >
+                  
                     Get In Touch
-                </button>
+                </Link> */}
             </div>
         </div>
         <div className='grid place-items-center'>
