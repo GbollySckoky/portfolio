@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Cursor } from 'react-simple-typewriter';
 import { RiTwitterXFill } from "react-icons/ri";
 import { MdLocalPhone } from "react-icons/md";
-
+import {CiMail} from "react-icons/ci"
 const Hero = () => {
   return (
     <div className='w-[80%] mx-auto text-blues'>
@@ -22,25 +22,25 @@ const Hero = () => {
             </h1>
             <div className='mt-4 fade-in '>
               <p className='text-[15px] text-blues leading-7'>
-                I'm a front-end developer with a passion for crafting exceptional digital experiences and one year of 
-                experience in designing and building responsive web designs. My expertise lies in creating accessible, 
-                human-centered, and SEO-friendly products. I am proficient in CSS and JavaScript frameworks, with 
-                extensive knowledge of ReactJS and NextJS. Notable achievements include:
+                    Hi, I'm Gbolahan, a web developer with 3 years of experience in JavaScript, TypeScript, React,
+                    and Next.js. I specialize in building accessible, reusable components and creating responsive,
+                    user-friendly websites. My optimized designs have improved performance by 30% and increased 
+                    customer retention by 20%.
               </p>
               <ul className='text-[15px] text-blues list-disc pl-5 mt-2'>
               <li className='py-1'>Implementing Payment Gateway</li>
               <li className='py-1'>Implemennting real-time data communication using Websocket.io</li>
                 <li className='py-1'>Developing web applications with mobile responsiveness</li>
                 <li className='py-1'>Consuming and manipulating APIs</li>
-                <li className='py-1'>Maintaining and improving websites</li>
-                <li className='py-1'>Creating quality mockups and prototypes</li>
+                <li className='py-1'>Web performance and optimizing</li>
+                {/* <li className='py-1'>Creating quality mockups and prototypes</li> */}
               </ul>
             </div>
           </div>
           <div className='flex items-center space-x-6 mt-7 cursor-pointer fade-in-icons'>
-            {/* <Link href={'mailto:gbolahancoker99@gmail.com'}  target="_blank">
+            <Link href={'mailto:gbolahancoker99@gmail.com'}  target="_blank">
               <CiMail size={20} />
-            </Link> */}
+            </Link>
             <Link to={'https://github.com/GbollySckoky'} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub size={20} />
             </Link>
