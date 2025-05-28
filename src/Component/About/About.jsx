@@ -39,70 +39,70 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 1 }}
             >
-                <p className='text-[15px] text-blue leading-7'>
-                    Hey there! I'm <b className='underline'>Gbolahan</b>, a passionate web developer with a keen for creating visually stunning 
-                    designs that captivate audiences. I believe that great design should be accessible to everyone, 
-                    and that's what drives me to craft user-friendly websites that leave a lasting impression.
-                </p>
-                <p className='text-[15px] text-blue leading-7 mt-6'>
-                    By day, I'm a dedicated web developer with a year of experience in the field, bringing innovative solutions to life. 
-                    I enjoy the dynamic nature of my work, constantly pushing boundaries to deliver seamless experiences and optimize 
-                    websites for better search engine visibility.
-                </p>
-                <p className='text-[15px] text-blue leading-7 mt-6'>
-                    Beyond the realm of code and design, I find joy in the simple pleasures of life. Music is a passion of mine, 
-                    serving as a constant source of inspiration and motivation throughout my creative journey. 
-                    When I'm not coding , you can find me listening to some cool music and playing video games.
-                </p>
-                <p className='text-[15px] text-blue leading-7 my-4'>
-                    Here are a few technologies I work with:
-                </p>
-                <ul className='grid grid-cols-2 mt-3 ml-3'>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="javascript"
-                    >
-                        <p>JAVASCRIPT</p>
-                    </motion.li>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="react"
-                    >
-                      <p>TYPESCRIPT</p>
-                    </motion.li>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="firebase"
-                    >
-                         <p>REACT</p>
-                    </motion.li>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="typescript"
-                    >
-                        <p>NEXT.JS</p>
-                    </motion.li>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="tailwind"
-                    >
-                        <p>TAILWIND CSS</p>
-                    </motion.li>
-                    <motion.li
-                      className='list-disc text-[16px] text-blue leading-7 py-1'
-                      whileHover={{ scale: 1.1 }}
-                      key="github"
-                    >
-                        <p>GITHUB</p>
-                    </motion.li>
-                </ul>
-            </motion.div>
-        </motion.div>
+    <p className='text-[15px] text-blue leading-7'>
+        Hi! I'm <b className='underline'>Gbolahan</b>, a web developer who loves bringing ideas to life through 
+        beautiful, engaging designs. My mission is to make exceptional digital experiences accessible to all, 
+        creating websites that are both intuitive and memorable for every user.
+    </p>
+    <p className='text-[15px] text-blue leading-7 mt-6'>
+        With 3 years of hands-on experience in web development, I specialize in transforming concepts into 
+        functional, innovative solutions. I thrive on the ever-evolving challenges of web development, 
+        consistently exploring new approaches to enhance user experience and boost search engine performance.
+    </p>
+    <p className='text-[15px] text-blue leading-7 mt-6'>
+        When I step away from my computer, I'm drawn to life's creative outlets. Music fuels my imagination 
+        and keeps me motivated during long coding sessions. In my downtime, you'll often catch me discovering 
+        new tracks or diving into video games for some well-deserved relaxation.
+    </p>
+    <p className='text-[15px] text-blue leading-7 my-4'>
+        Some of the technologies I'm proficient in include:
+    </p>
+      <ul className='grid grid-cols-2 mt-3 ml-3'>
+          <motion.li
+            className='list-disc text-[16px] text-blue leading-7 py-1'
+            whileHover={{ scale: 1.1 }}
+            key="javascript"
+          >
+              <p>JAVASCRIPT</p>
+          </motion.li>
+          <motion.li
+            className='list-disc text-[16px] text-blue leading-7 py-1'
+            whileHover={{ scale: 1.1 }}
+            key="react"
+          >
+            <p>TYPESCRIPT</p>
+          </motion.li>
+          <motion.li
+            className='list-disc text-[16px] text-blue leading-7 py-1'
+            whileHover={{ scale: 1.1 }}
+            key="firebase"
+          >
+                <p>REACT</p>
+          </motion.li>
+          <motion.li
+            className='list-disc text-[16px] text-blue leading-7 py-1'
+            whileHover={{ scale: 1.1 }}
+            key="typescript"
+          >
+              <p>NEXT.JS</p>
+          </motion.li>
+          <motion.li
+            className='list-disc text-[16px] text-blue leading-7 py-1'
+            whileHover={{ scale: 1.1 }}
+            key="tailwind"
+          >
+              <p>TAILWIND CSS</p>
+          </motion.li>
+          <motion.li
+            className='list-disc text-[16px] text-blue leading-7 py-1'
+            whileHover={{ scale: 1.1 }}
+            key="github"
+          >
+              <p>GITHUB</p>
+          </motion.li>
+      </ul>
+    </motion.div>
+    </motion.div>
     </motion.div>
   )
 }

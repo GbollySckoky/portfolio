@@ -28,6 +28,8 @@ const Hero = () => {
                 extensive knowledge of ReactJS and NextJS. Notable achievements include:
               </p>
               <ul className='text-[15px] text-blues list-disc pl-5 mt-2'>
+              <li className='py-1'>Implementing Payment Gateway</li>
+              <li className='py-1'>Implemennting real-time data communication using Websocket.io</li>
                 <li className='py-1'>Developing web applications with mobile responsiveness</li>
                 <li className='py-1'>Consuming and manipulating APIs</li>
                 <li className='py-1'>Maintaining and improving websites</li>
