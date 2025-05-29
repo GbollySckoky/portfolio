@@ -25,7 +25,7 @@ const Hero = () => {
                     Hi, I'm Gbolahan, a web developer with 3 years of experience in JavaScript, TypeScript, React,
                     and Next.js. I specialize in building accessible, reusable components and creating responsive,
                     user-friendly websites. My optimized designs have improved performance by 30% and increased 
-                    customer retention by 20%.
+                    customer retention by 20%. These includes:
               </p>
               <ul className='text-[15px] text-blues list-disc pl-5 mt-2'>
               <li className='py-1'>Implementing Payment Gateway</li>
