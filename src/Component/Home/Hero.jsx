@@ -22,7 +22,7 @@ const Hero = () => {
             </h1>
             <div className='mt-4 fade-in '>
               <p className='text-[15px] text-blues leading-7'>
-                     Hi, I'm Gbolahan Coker a Frontend Developer with 3 years of experience building responsive, 
+                   Frontend Developer with 3 years of experience building responsive, 
                      user-friendly web applications using JavaScript, TypeScript, React, and Next.js. Passionate 
                      about clean UI, performance optimization, and accessible design. Delivered performance 
                      improvements of up to 30% and helped increase user retention by 20%. These includes:
